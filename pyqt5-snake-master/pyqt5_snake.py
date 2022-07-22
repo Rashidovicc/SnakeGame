@@ -10,10 +10,8 @@ from PyQt5.QtGui import *
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
-        # VERTICAL BOX LAYOUT
         self.mainLayout = QVBoxLayout()
 
-        # STATUS BAR & STATUS BAR OBJECTS
         self.pointsTextLabel = QLabel("Points:")
 
         self.pointsLabel = QLabel("0/5")
