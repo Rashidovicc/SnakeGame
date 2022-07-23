@@ -61,7 +61,6 @@ class MainWindow(QWidget):
     def restart_game(self):
         self.board.restartGame()
 
-    # Exit method, it is called by game over box
     def exit_game(self):
         sys.exit()
 
