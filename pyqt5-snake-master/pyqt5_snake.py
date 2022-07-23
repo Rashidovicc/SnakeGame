@@ -37,7 +37,7 @@ class MainWindow(QWidget):
         self.statusbar.addWidget(self.timeTextLabel)
         self.statusbar.addWidget(self.timeLabel)
 
-        # GAME OVER MESSAGE BOX
+        
         self.gameOverBox = QMessageBox()
         self.gameOverBox.setWindowTitle("GAME OVER")
         self.gameOverBoxButton1 = self.gameOverBox.addButton("Retry", self.gameOverBox.ActionRole)
