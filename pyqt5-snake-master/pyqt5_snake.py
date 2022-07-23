@@ -76,7 +76,7 @@ class Board(QFrame):
         self.startGame()
 
     def startGame(self):
-        # GET FOCUS
+       
         self.setFocusPolicy(Qt.StrongFocus)
 
         # INITILIAZE ALL MANAGERS
