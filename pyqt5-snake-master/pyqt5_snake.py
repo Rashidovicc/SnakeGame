@@ -57,7 +57,7 @@ class MainWindow(QWidget):
         self.setLayout(self.mainLayout)
         self.show()
 
-    # Reset method, it is called by game over box
+    
     def restart_game(self):
         self.board.restartGame()
 
