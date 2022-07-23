@@ -45,7 +45,6 @@ class MainWindow(QWidget):
         self.gameOverBoxButton2 = self.gameOverBox.addButton("Exit Game", self.gameOverBox.ActionRole)
         self.gameOverBoxButton2.clicked.connect(self.exit_game)
 
-        # MAIN WINDOW PROPERTIES
         self.setWindowTitle("Snake Game")
         self.setStyleSheet("background: #333")
 
