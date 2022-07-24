@@ -79,18 +79,16 @@ class Board(QFrame):
        
         self.setFocusPolicy(Qt.StrongFocus)
 
-        # INITILIAZE ALL MANAGERS
         self.snakeManager = self.SnakeManager(self)
         self.foodManager = self.FoodManager(self)
         self.uiManager = self.UIManager(self)
         self.levelManager = self.LevelManager(self)
         self.timerManager = self.TimerManager(self)
 
-        # CREATE SNAKE
         self.snakeManager.createSnake()
-        # DROP FOOD
+        
         self.foodManager.dropFood()
-        # START TIMERS
+        
         self.timerManager.startTicks()
 
     def restartGame(self):
