@@ -133,7 +133,7 @@ class Board(QFrame):
             self.snake = [(startPosX, startPosY)]
             i = False
             while i is False:
-                # 1 up, 2 down, 3 stay still
+                
                 direction = random.randint(1, 5)
                 upOrDown = random.randint(1, 3)
                 nextCoordX = self.snake[-1][0]
