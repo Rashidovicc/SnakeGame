@@ -66,7 +66,7 @@ class MainWindow(QWidget):
 
 
 """
-@ Game board class
+@ Snake board class
 """
 
 
